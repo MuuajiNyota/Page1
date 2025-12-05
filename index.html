@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="https://static.nationalgeographic.fr/files/styles/image_3200/public/940.jpg?w=1900&h=1427" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boire de l'eau</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+<style>   
+   :root {
+      --bg: #060617;
+      --card: #0c1120;
+      --accent: #38bdf8;
+      --text-main: #e8b7eb;
+      --text-soft: #9ca3af;
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 800px;
+      font-family: "Poppins", "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif;
+      background: radial-gradient(circle at 75%, #1e293b 0, transparent 55%),
+                  radial-gradient(circle at 100%, #22d3ee 0, transparent 55%),
+                  var(--bg);
+      color: var(--text-main);
+      line-height: 26px;
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+    }
+
+    main {
+      width: 100%;
+      max-width: 960px;
+      display: grid;
+      gap: 24px;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    header p {
+      color: var(--text-soft);
+      font-size: 15px;
+    }
+
+    .layout {
+      display: grid;
+      gap: 24px;
+    }
+
+    @media (min-width: 80px) {
+      .layout {
+        grid-template-columns: 260px minmax(0	, 1fr);
+        align-items: center;
+		justify-content: center;
+      }
+    }
+
+    .panel {
+      position: sticky;
+      padding: 10px;
+	  border-radius: 20px;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
+
+    .panel h2 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      color: var(--text-soft);
+      margin-bottom: 11px;
+    }
+
+    .panel a {
+      display: block;
+      text-decoration: none;
+	  color: white;
+      padding: 25px;
+      border-radius: 15px;
+      border: 1px solid lightblue;
+      font-size: 14px;
+      margin-bottom: 6px;
+	  margin-left: 3 px;
+      background: rgba(15, 23, 42, 0.9);
+      transition: background 0.9s, transform 0.5s, border-color 0.2s;
+    }
+
+    .panel a:hover {
+      background: transparent;
+      border-color: lightblue;
+      transform: translateX(5px);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 13px;
+      border-radius: 90px;
+      border: 5px solid lightgrey;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+
+    .badge i {
+	  display: inline;
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+	  border: 2px solid lightgrey;
+      background: var(--accent);
+    }
+
+    article h2 {
+      font-size: 19px;
+      margin-bottom: 8px;
+    }
+
+    article h3 {
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 1px;
+    }
+
+    article p {
+      font-size: 15px;
+      color: var(--text-soft);
+      margin-bottom: 16px;
+    }
+	
+    .conseils {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: grid;
+      gap: 7px;
+    }
+
+    .conseil {
+      font-size: 14px;
+      padding: 6px 10px;
+      border-radius: 10px;
+      border: 3px solid rgba(148, 163, 184, 0.5);
+      background: rgba(15, 23, 42, 0.95);
+    }
+	.conseils :hover(
+	background: var(--bg);
+	transform: translateX(2px);
+    
+	footer {
+      margin-top: 1px;
+      text-align: center;
+      font-size: 10px;
+      color: lightblue;
+    }
+</style>
+
+</head>
+<body>
+  <main>
+    <header>
+      <h1>&#x1F30D; Boire de l'eau&#x1F30D;</h1>
+      <p>Hydratation saine & écologique : quelques repères simples pour mieux boire... et préserver la planète.</p>
+    </header>
+
+    <div class="layout">
+      <aside class="panel">
+        <h2>Ressources</h2>
+        <nav>
+          <ul>
+            <li><a href="C:\Users\gryse\OneDrive\Dokumente\Cours\Hannequin\TP-HTML\Page 2 du site\Site Page2.html" title="Lien vers la page n°2">&#128167; <i>PAGE 2 H2O</i> --- Astuces pour bien s'hydrater</a></li>
+            <li><a href="C:\Users\gryse\OneDrive\Dokumente\Cours\Hannequin\TP-HTML\Page 3 du site\Site Page3.html" title="Lien vers la page n°3">&#128167; <i>PAGE 3 Stats</i> --- Statistiques sur l'eau</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Eau" target="_blank" rel="noopener" title="Lien vers la Wikipédia sur l'eau">&#127760; <i>Aller sur le Wiki</i> --- <span>Comprendre la ressource essentielle</span></a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="Terre">
+        <img src="C:\Users\gryse\OneDrive\Dokumente\Cours\Hannequin\TP-HTML\Page 1 du site\planete-terre-isolee-fond-transparent_879541-680-removebg-preview.png" title="Image de la planète Terre" alt="Planète Terre" />
+        <article id="hydratation">
+          <div class="badge">
+            <i></i>
+            Hydratation & Planète
+          </div>
+
+          <h2>Pourquoi boire de l'eau ?</h2>
+          <p>
+            L'eau est une ressource très abondante et fait partie des énergies renouvelables.
+            Elle est essentielle à la vie et joue un rôle crucial dans de nombreux processus
+            biologiques. Boire suffisamment d'eau est fondamental pour maintenir une bonne santé
+            et le bon fonctionnement de l'organisme.
+          </p>
+
+          <h3>Comment boire de l'eau ?</h3>
+          <p>
+            Boire de l'eau sainement et écologiquement consiste à privilégier une hydratation
+            régulière avec une eau propre et adaptée à ses besoins, tout en minimisant son impact
+            environnemental.
+          </p>
+          <p>
+            Il est recommandé de boire de l'eau du robinet filtrée plutôt que de l'eau dans une bouteille
+            en plastique afin de réduire les déchets et l'énergie liée à la production et au transport.
+            Utiliser une gourde réutilisable en inox ou en verre est une alternative durable.
+          </p>
+          <p>
+            Éviter le gaspillage en ne laissant pas couler l'eau inutilement et en consommant une
+            quantité adaptée à son corps contribue à une consommation responsable. Choisir des
+            filtres écologiques et entretenir son système de filtration permet d'avoir une eau saine
+            tout en respectant la planète.
+          </p>
+          <div class="conseils">
+            <div class="conseil">&#x1F340; Boire par petites gorgées tout au long de la journée.</div>
+            <div class="conseil">&#x1F339; Privilégier l'eau du robinet filtrée plutôt que les bouteilles.</div>
+            <div class="conseil">&#x267B; Utiliser une gourde réutilisable (inox ou verre).</div>
+            <div class="conseil">&#x2622; Ne pas laisser l'eau couler inutilement pour éviter le gaspillage.</div>
+          </div>
+        </article>
+      </div>
+
+    <footer>
+      <i>&#x2694; 2025 - Remi - Comment boire de l'eau ?</i>
+    </footer>
+  </main>
+</body>
+</html>
